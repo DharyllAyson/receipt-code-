@@ -1,0 +1,18 @@
+date = input("Date: ")
+name = input("Sold to: ")
+contact = input("Contact: ")
+address = input("Address: ")
+
+print("2.7 kg.", "5 kg.", "6 kg",  "11 kg.",  "22 kg.",  "50 kg.")
+
+kilograms = str(input("Please input your choice of kilogram: "))
+
+print("2.7kg (1100)", "5kg(1500)", "6kg(2000)", "11kg(2500)", "22kg(3000)", "50kg(3500)")
+price_gas = float(input("Price of gas: "))
+user_cash = float(input("Input your cash please: "))
+
+change = int(price_gas) - int(user_cash)
+
+print("here is your change maam/sir:",+ change)
+
+print("Thank you for purchasing PRYCE GAS maam/sir")
